@@ -1,0 +1,245 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #2625223D;
+    padding: 16px 24px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    margin: 16px 0;
+    .logo {
+        display: flex;
+        align-items: center;
+        h6 {
+            width: 50px;
+            margin-left: 8px;
+        }
+    }
+    .menu1 {
+        a {
+            margin-right: 24px;
+            padding: 8px;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+    .buttons {
+        display: flex;
+        align-items: center;
+        .search {
+            width: 37px;
+            height: 37px;
+            border-radius: 50%;
+            line-height: 50%;
+        }
+
+        .subscr {
+            padding: 12px 24px;
+            border-radius: 24px;
+            background-color: #262522;
+            color: white;
+            text-transform: uppercase;
+            margin-left: 16px;
+        }
+    }
+}
+.hero {
+    padding: 120px 0;
+    text-align: center;
+    background-image: url('https://s3-alpha-sig.figma.com/img/9a1f/7b30/28624149ade00fab2b539d7630041700?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ER62rAyXsxwZOsZY~2lUF3GMGXqgDesmid6apUse6URcgQM5NwbRGPZRRl6PGBqoV9vfIt8DWJmwBN7yGZyciPnU30zKuwY1jcfobrx~RFYlfMPJd6pS8VDpa-JGa40LWGq3AtgABn2y8YzuANEFJ3JSif6u2fqpvJofa9w58gMdA6Jce8qukM7MGE-tABIX53CLuRiaiohZgNrUMci9uFy2eHTmt7fsWMn7s0bDJzoNcyqnuj-kqymVB0INXcJfw8~GZFPBWb0VZJmuGMQqD5Fd7qfzQjsBNyinbroq18ugcU4vOcqYnFPchHYgrl6H6nXAQ-HEl0TmciwvGMYTEQ__');
+    border-radius: 32px;
+    .hero-content {
+        width: 869px;
+        margin: 0 auto;
+        h1 {
+            font-size: 80px;
+            margin-bottom: 12px;
+            color: white;
+            font-family: "Montserrat" ;
+            font-weight: 800;
+        }
+        p {
+            width: 400px;
+            margin: auto;
+            font-size: 21px;
+            margin-bottom: 40px;
+            color: white;
+            font-family: "Roboto";
+        }
+        .hero-btn {
+            padding: 12px 24px;
+            border-radius: 24px;
+            background-color: #F29C33;
+            color: black;
+            text-transform: uppercase;
+            font-family: "Roboto" ;
+            margin-left: 16px;
+        }
+    }
+}
+
+.menu2 {
+    background-color: #C4E5FC;
+    padding: 40px;
+    border-radius: 32px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    .menu-text {
+        padding-top: 148px;
+        width: 494px;
+        button.menu-btn1 {
+            margin-bottom: 20px;
+            padding: 4px 8px 4px 8px;
+            border-radius: 12px;
+            background-color: #EE6352;
+            text-transform: uppercase;
+            font-family: "Roboto";
+        }
+        h3 {
+            margin-bottom: 12px;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-family: "Montserrat";
+        }
+        p {
+            margin-bottom: 40px;
+            font-weight: 300;
+            width: 494px;
+            line-height: 22px;
+            font-family: "Roboto";
+        }
+        button.menu-btn2 {
+            border: 1px solid #262522;
+            background-color: transparent;
+            color: currentColor;
+            text-transform: uppercase;
+            width: 115px;
+            height: 38px;
+            border-radius: 24px;
+            font-family: "Roboto";
+
+        }
+    }
+    .menu-items {
+        width: 497px;
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            border-bottom: #26252229;
+            padding: 18px 0;
+            h4 {
+                font-size: 14px;
+                font-weight: 600;
+                font-family: "Montserrat";
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.recipes {
+    .recipes-top {
+        text-align: center;
+        .recipes-btn {
+            width: 74px;
+            height: 24px;
+            border-radius: 12px;
+            background-color: #EE6352;
+            color: #F0EBE1;
+            text-transform: uppercase;
+            font-family: "Roboto";
+            line-height: 16px;
+            font-weight: 500;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        h3 {
+            font-size: 40px;
+            font-family: "Montserrat";
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 40px;
+            font-family: "Roboto";
+            font-weight: 300;
+            line-height: 22.4px;
+            letter-spacing: 0.01em;
+            width: 426px;
+            margin: 0 auto;
+        }
+        .recipes-buttons {
+            margin-bottom: 40px;
+        }
+    }
+    .recipes-cards {
+        display: flex;
+        flex-wrap: wrap;
+        .card {
+            width: 427px;
+            border-radius: 24px;
+            border: 1px solid #26252229;
+            margin: 0 10px 24px 0;
+            .card-text {
+                background: #FFFBF2;
+                border-bottom-right-radius: 24px;
+                border-bottom-left-radius: 24px;
+                padding: 24px 24px 16px;
+                h4 {
+                    font-family: "Montserrat";
+                    line-height: 28.8px;
+                    letter-spacing: -0.01em;
+                    margin-bottom: 12px;
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: #262522;
+                }
+                p {
+                    font-family: "Roboto";
+                    width: 365px;
+                    margin-bottom: 54px;
+                    color: #262522;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p {
+                        font-family: "Roboto";
+                        margin-bottom: 0;
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 14.4px;
+                        letter-spacing: 0.01em;
+                        width: auto;
+                        margin: 0;
+                        color: #262522;
+                        text-transform: uppercase;
+                    }
+                    button {
+                        font-family: "Roboto";
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 14px;
+                        padding: 12px 24px;
+                        text-transform: uppercase;
+                        background-color: transparent;
+                        border: 1px solid #262522;
+                        color: #262522;
+                        border-radius: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
