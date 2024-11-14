@@ -130,13 +130,16 @@ header {
             justify-content: space-between;
             align-items: center;
             margin-bottom: 16px;
-            border-bottom: #26252229;
+            border-bottom: 1px solid #26252229;
             padding: 18px 0;
             h4 {
                 font-size: 14px;
                 font-weight: 600;
                 font-family: "Montserrat";
                 text-transform: uppercase;
+            }
+            img {
+                color: #262522;
             }
         }
     }
