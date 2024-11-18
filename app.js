@@ -54,24 +54,27 @@ function renderBtn(){
                 recipes_cards.innerHTML = meals.map(f => {
                     return` <div class="card">
                     <div class="card-img">
-                        <img src="./img/Recipe Image.svg" alt="">
+                        <img src="${f.strMealThumb}" alt="">
                     </div>
                     <div class="card-text">
-                        <h4>Savory Herb-Infused Chicken</h4>
+                        <h4>${f.strMeal.slice(0,20)}</h4>
                         <p>Indulge in the rich and savory symphony of flavors with our Savory Herb-Infused Chicken</p>
                         <div>
                             <p>40 Min - easy prep - 3 serves</p>
-                            <button>view recipe</button>
+                            <button onclick="info(${f.idMeal})">view recipe</button>
                         </div>
                     </div>
                 </div>`
-                })
+                }).join ('')
             })
             btnIndex = i
             renderBtn()
-            
         })
     })
+}
+
+function info(foodid) {
+    window.location.href = 'food-info.html?id=' + foodid
 }
 
 renderBtn()
