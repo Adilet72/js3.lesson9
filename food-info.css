@@ -75,15 +75,17 @@ body {
             flex-direction: column;
             justify-content: space-between;
             .lamb4 {
+                flex: 1;
                 margin-top: 80px;
                 margin-left: 72px;
                 background-color: #FFFBF2;
                 width: 428px;
-                height: 300px;
+                height: 295px;
                 padding: 24px 16px 24px 16px;
                 border-radius: 24px;
                 border: 1px;
                 margin-bottom: 16px;
+                overflow: hidden;
                 h4 {
                     width: 133px;
                     height: 18px;
@@ -96,7 +98,6 @@ body {
                     margin-bottom: 16px;
                 }
                 p {
-                    flex: 1;
                     width: 396px;
                     height: 203px;
                     font-family: 'Roboto';
