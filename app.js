@@ -79,8 +79,6 @@ function info(foodid) {
 
 renderBtn()
 
-
-
 menuEl.innerHTML = menu.map( m => {
     return`
         <div>
