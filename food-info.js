@@ -28,7 +28,7 @@ if (id) {
                 }
             }
 
-            // Меры
+            
             const measuresList = document.querySelector('.lamb5 p');
             measuresList.innerHTML = '';
             for (let i = 1; i <= 20; i++) {
